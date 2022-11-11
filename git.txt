@@ -1,0 +1,15 @@
+
+
+		1. git init 
+		   -> .git - LOKALNO SKLADIŠTE KODA
+		2. program.js
+		    git add program.js
+			git add .  
+			
+			UNSTAGED -> STAGED
+			
+	    3.   STAGED -> REPOSITORY
+		    git commit -m "Ubacio ...."
+	    4. LOKALNI REPOSITORY -> CENTRALNIT REPOSITORY
+		    git remote add origin https://emirPuskaITAkademija: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@github.com/emirPuskaITAkademija/JSProjekat.git
+			git push -u origin master 
