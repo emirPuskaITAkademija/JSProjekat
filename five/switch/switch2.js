@@ -29,4 +29,5 @@ function calculate() {
             break;
     }
     alert("Broj dana u mjesecu je: " + numberOfDays);
+    
 }
