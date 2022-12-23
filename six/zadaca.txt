@@ -1,0 +1,10 @@
+Dopustiti korisniku da unese 10 brojeva.
+Tih 10 brojeva skladištiti unutar nekog niza.
+Procesirati svaki element tog niza(uneseni brojevi)
+ na način da u konzoli ispisete samo proste brojeve.
+
+
+Isprobajte uraditi navedeni zadatak u svim verzijama petlji koje 
+smo radili.
+
+NOTE: Prost broj je djeljiv sa samim sobom i sa 1.
