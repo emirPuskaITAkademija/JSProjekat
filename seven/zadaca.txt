@@ -1,0 +1,8 @@
+Zadatak: 
+Kreirati program koji korisniku prikazuje dugmić sa sadržajem
+"PDV kalkulacija".
+Nad dugmićem treba pozvati funkciju koja će omogućiti korisniku
+unos cijene BEZ PDV-a. Nakon korisnčkog unosa program treba da
+prikaže cijenu navedenog artikla sa PDV-om u sljedećeme formatu:
+"Cijena artikla : IZNOS_BEZ_PDV, PDV_IZNOS, IZNOS_SA_PDV".
+Koristiti tzv. BACK_TICK Stringove ili Template String.
