@@ -76,7 +76,6 @@ function pretraziIgnoreCase() {
   }*/
 }
 
-
 /**
  * Interpolaciji neki vrijednosti varijabli u string varijablu
  */
