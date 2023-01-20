@@ -1,0 +1,15 @@
+ZADATAK:
+
+Kreirati HTML dokument koji inicijalno
+prikazuje slika1.jpeg unutar img.
+
+Ispod slike postoje dva dugmića.
+Jedan je povezan sa slikom slika.jpeg, 
+dok je drugi povezan sa slika2.jpeg.
+Kada korisnik klikne na dugmić SLIKA 1
+prikazuje se slika1.jpeg.
+Inače se prikazuje na klik dugmića SLIKA 2
+druga slika slika2.jpeg
+
+eight\dom\zadatak
+C:\Users\Grupa 2\Desktop\JSProjekat\eight\dom\zadatak

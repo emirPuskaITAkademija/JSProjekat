@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JS i FORMA</h1>
+    <form name="mojaForma" method="get" action="www.facebook.com" onsubmit="validateFormInputs()">
+        Username: <input name="uname" type="text">
+        <input  type="submit" value="LOGIN">
+    </form>
+    <script>
+        function validateFormInputs(){
+            let forma = document.forms["mojaForma"];
+            let username = forma["uname"];
+            if(username.value==""){
+                alert("Ne može username biti prazan")
+                return false;
+            }
+            return true;
+        }
+    </script>
+</body>
+</html>

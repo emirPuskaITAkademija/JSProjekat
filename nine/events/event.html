@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Demonstracija događaja na koje može reagovati JS function</h2>
+    <p onclick="nekoSakoMako()">Clikni na paragraf da vidiš šta se dešava</p>
+    <script>
+        function nekoSakoMako(){
+            let paragraf = document.getElementsByTagName("p");
+            paragraf[0].innerHTML=new Date();
+        }
+    </script>
+</body>
+</html>
